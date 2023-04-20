@@ -1,0 +1,8 @@
+dependencies {
+
+    api(
+            libraries.'spring-boot-starter-redis',
+            project(':cloud-api'),
+            project(':cloud-common'),
+    )
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/cloud-account-services" />
+            <option value="$PROJECT_DIR$/cloud-api" />
+            <option value="$PROJECT_DIR$/cloud-client" />
+            <option value="$PROJECT_DIR$/cloud-common" />
+            <option value="$PROJECT_DIR$/cloud-gateway" />
+            <option value="$PROJECT_DIR$/cloud-redis" />
+            <option value="$PROJECT_DIR$/cloud-storage" />
+            <option value="$PROJECT_DIR$/cloud-storage-services" />
+            <option value="$PROJECT_DIR$/cloud-utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+dependencies {
+    api(
+            libraries.'spring-boot-starter-validation',
+            libraries.'spring-boot-starter-json',
+    )
+}

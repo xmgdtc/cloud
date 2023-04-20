@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+
+
+spring:
+  profiles:
+    include: value
+  cloud:
+    gateway:
+      routes:
+        - id: account
+          uri: http://localhost:8081
+          predicates:
+            - Path=/gateway/account/**
+          filters:
+            - StripPrefix=1

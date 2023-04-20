@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "account"
+  profiles:
+    active: dev
+    group:
+      "dev": "common,token,db-dev,redis-dev"

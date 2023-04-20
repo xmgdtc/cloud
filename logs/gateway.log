@@ -1,0 +1,461 @@
+2023-04-10 17:14:52,756 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:14:52,852 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 20104 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:14:52,855 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:14:54,369 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:14:56,965 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:14:56,966 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:14:56,966 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:14:58,756 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:15:00,255 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 8.785 seconds (JVM running for 10.148)
+2023-04-10 17:18:19,381 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:18:19,452 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 18324 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:18:19,456 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:18:20,915 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:18:23,859 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:18:23,859 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:18:23,860 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:18:25,961 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:18:27,625 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 9.55 seconds (JVM running for 10.954)
+2023-04-10 17:18:57,141 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:18:57,200 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 17880 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:18:57,203 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:18:58,433 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:19:01,465 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:19:01,465 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:19:01,465 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:19:01,465 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:19:01,466 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:19:03,352 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:19:04,766 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 8.685 seconds (JVM running for 9.835)
+2023-04-10 17:19:46,678 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:19:46,771 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 6040 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:19:46,774 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:19:48,178 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:19:50,979 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:19:50,980 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:19:50,980 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:19:50,980 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:19:50,980 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:19:50,980 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:19:52,696 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:19:53,950 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 8.559 seconds (JVM running for 9.9)
+2023-04-10 17:20:30,664 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:20:30,724 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 2792 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:20:30,725 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:20:31,778 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:20:34,219 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:20:34,219 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:20:34,219 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:20:34,219 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:20:34,220 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:20:36,145 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:20:37,577 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 7.918 seconds (JVM running for 9.11)
+2023-04-10 17:24:45,986 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:24:46,051 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 3936 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:24:46,054 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:24:47,216 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:24:49,233 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:24:49,234 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:24:49,234 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:24:50,584 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:24:51,777 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 6.832 seconds (JVM running for 7.955)
+2023-04-10 17:25:25,241 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:25:25,308 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 16608 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:25:25,310 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:25:26,298 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:25:28,997 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:25:28,998 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:25:30,944 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:25:32,326 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 8.093 seconds (JVM running for 9.41)
+2023-04-10 17:27:25,882 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:27:25,975 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 11440 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:27:25,978 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:27:27,611 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:27:36,492 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:27:36,601 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 20104 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:27:36,604 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:27:38,504 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:27:42,619 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:27:42,630 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:27:42,634 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:27:42,639 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:27:42,641 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:27:42,645 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:27:42,646 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:27:42,647 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:27:42,647 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:27:42,648 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:27:42,648 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:27:42,648 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:27:42,649 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:27:42,649 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:27:46,081 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:27:48,641 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 14.3 seconds (JVM running for 16.07)
+2023-04-10 17:29:01,792 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:29:01,857 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 10916 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:29:01,859 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:29:02,818 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:29:05,589 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:29:05,590 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:29:07,526 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:29:08,860 [main] ERROR org.springframework.cloud.gateway.route.CachingRouteLocator - Refresh routes error !!!
+java.lang.IllegalStateException: Could not create URI object: Expected scheme-specific part at index 5: http:
+	at org.springframework.web.util.HierarchicalUriComponents.toUri(HierarchicalUriComponents.java:527) ~[spring-web-5.3.26.jar:5.3.26]
+	at org.springframework.cloud.gateway.route.Route$AbstractBuilder.uri(Route.java:193) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.Route.async(Route.java:88) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.convertToRoute(RouteDefinitionRouteLocator.java:120) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmitScalar(FluxFlatMap.java:489) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:422) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.drain(FluxMergeSequential.java:432) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.innerComplete(FluxMergeSequential.java:328) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onSubscribe(FluxMergeSequential.java:552) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4605) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4457) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4393) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4365) ~[reactor-core-3.4.28.jar:3.4.28]
+	at org.springframework.cloud.gateway.route.CachingRouteLocator.onApplicationEvent(CachingRouteLocator.java:81) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.CachingRouteLocator.onApplicationEvent(CachingRouteLocator.java:40) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:73) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:50) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.xmgdtc.GatewayApplication.main(GatewayApplication.java:11) ~[main/:?]
+Caused by: java.net.URISyntaxException: Expected scheme-specific part at index 5: http:
+	at java.net.URI$Parser.fail(URI.java:2913) ~[?:?]
+	at java.net.URI$Parser.failExpecting(URI.java:2919) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3119) ~[?:?]
+	at java.net.URI.<init>(URI.java:685) ~[?:?]
+	at org.springframework.web.util.HierarchicalUriComponents.toUri(HierarchicalUriComponents.java:523) ~[spring-web-5.3.26.jar:5.3.26]
+	... 53 more
+2023-04-10 17:29:08,892 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-10 17:29:08,932 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Could not create URI object: Expected scheme-specific part at index 5: http:
+	at org.springframework.web.util.HierarchicalUriComponents.toUri(HierarchicalUriComponents.java:527) ~[spring-web-5.3.26.jar:5.3.26]
+	at org.springframework.cloud.gateway.route.Route$AbstractBuilder.uri(Route.java:193) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.Route.async(Route.java:88) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.convertToRoute(RouteDefinitionRouteLocator.java:120) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmitScalar(FluxFlatMap.java:489) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:422) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.drain(FluxMergeSequential.java:432) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.innerComplete(FluxMergeSequential.java:328) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onSubscribe(FluxMergeSequential.java:552) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.28.jar:3.4.28]
+	at reactor.core.publisher.Flux.blockLast(Flux.java:2760) ~[reactor-core-3.4.28.jar:3.4.28]
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$0(WeightCalculatorWebFilter.java:134) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2046) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:134) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:73) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:50) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.xmgdtc.GatewayApplication.main(GatewayApplication.java:11) ~[main/:?]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99) ~[reactor-core-3.4.28.jar:3.4.28]
+		at reactor.core.publisher.Flux.blockLast(Flux.java:2761) ~[reactor-core-3.4.28.jar:3.4.28]
+		at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$0(WeightCalculatorWebFilter.java:134) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2046) ~[spring-beans-5.3.26.jar:5.3.26]
+		at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:134) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:73) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+		at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:50) ~[spring-cloud-gateway-server-3.1.6.jar:3.1.6]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.26.jar:5.3.26]
+		at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.10.jar:2.7.10]
+		at org.xmgdtc.GatewayApplication.main(GatewayApplication.java:11) ~[main/:?]
+Caused by: java.net.URISyntaxException: Expected scheme-specific part at index 5: http:
+	at java.net.URI$Parser.fail(URI.java:2913) ~[?:?]
+	at java.net.URI$Parser.failExpecting(URI.java:2919) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3119) ~[?:?]
+	at java.net.URI.<init>(URI.java:685) ~[?:?]
+	at org.springframework.web.util.HierarchicalUriComponents.toUri(HierarchicalUriComponents.java:523) ~[spring-web-5.3.26.jar:5.3.26]
+	... 53 more
+2023-04-10 17:29:17,676 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:29:17,800 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 16348 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:29:17,804 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:29:19,526 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:29:23,036 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:29:23,036 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:29:23,036 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:29:23,036 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:29:23,036 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:29:23,037 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:29:23,038 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:29:24,872 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:29:26,296 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 10.039 seconds (JVM running for 11.331)
+2023-04-10 17:30:24,443 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:30:24,498 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 8880 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:30:24,500 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:30:25,552 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:30:27,805 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:30:27,805 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:30:27,805 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:30:27,805 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:30:27,806 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:30:29,698 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:30:31,059 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 7.807 seconds (JVM running for 8.883)
+2023-04-10 17:31:56,145 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-10 17:31:56,214 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 8688 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-10 17:31:56,217 [main] INFO  org.xmgdtc.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-10 17:31:57,101 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-10 17:31:58,983 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-10 17:31:58,984 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-10 17:32:00,397 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-10 17:32:01,766 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 6.578 seconds (JVM running for 7.592)
+2023-04-14 09:47:31,124 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-14 09:47:31,185 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 16916 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-14 09:47:31,187 [main] INFO  org.xmgdtc.GatewayApplication - The following 1 profile is active: "value"
+2023-04-14 09:47:32,587 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-14 09:47:33,176 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gatewayApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'app.abc' in value "${app.abc}"
+2023-04-14 09:47:33,200 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-14 09:47:33,225 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gatewayApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'app.abc' in value "${app.abc}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.xmgdtc.GatewayApplication.main(GatewayApplication.java:19) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'app.abc' in value "${app.abc}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 17 more
+2023-04-14 09:49:26,794 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-04-14 09:49:26,871 [main] INFO  org.xmgdtc.GatewayApplication - Starting GatewayApplication using Java 11.0.12 on LAPTOP-KRETQ5MT with PID 16428 (D:\JavaProject\cloud\cloud-gateway\build\classes\java\main started by xmgdt in D:\JavaProject\cloud)
+2023-04-14 09:49:26,874 [main] INFO  org.xmgdtc.GatewayApplication - The following 1 profile is active: "value"
+2023-04-14 09:49:28,657 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=de6a5c35-aef3-3511-95b6-132123dd03b6
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-04-14 09:49:31,687 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-04-14 09:49:31,688 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-04-14 09:49:33,583 [main] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer - Netty started on port 8082
+2023-04-14 09:49:35,082 [main] INFO  org.xmgdtc.GatewayApplication - Started GatewayApplication in 9.545 seconds (JVM running for 11.125)

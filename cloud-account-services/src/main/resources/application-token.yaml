@@ -1,0 +1,11 @@
+token:
+  issuer: xmgdtc
+  secretKey: key123456
+  expiry: 7200
+  refresh:
+    expiry: 21600
+  pubKey:
+    expiry: 60
+
+login:
+  enc: false

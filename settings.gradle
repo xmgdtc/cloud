@@ -1,0 +1,12 @@
+rootProject.name = 'cloud'
+include 'cloud-api'
+include 'cloud-client'
+include 'cloud-account-services'
+include 'cloud-common'
+include 'cloud-redis'
+include 'cloud-gateway'
+include 'cloud-utils'
+include 'cloud-storage'
+include 'cloud-storage-services'
+include 'cloud-storage-services'
+

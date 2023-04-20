@@ -1,0 +1,27 @@
+dependencies {
+    implementation(
+            libraries.'postgresql-jdbc',
+            project(':cloud-client'),
+            project(':cloud-redis'),
+
+            project(':cloud-common'),
+            project(':cloud-api'),
+    )
+}
+
+ext {
+    fromImage = 'openjdk:11.0.5-jre-stretch'
+}
+jib {
+    from {
+        image = fromImage
+    }
+
+    container {
+        volumes = ['/logs']
+        creationTime = 'USE_CURRENT_TIMESTAMP'
+        jvmFlags = ['-Xmx256m', '-Dspring.profiles.active=prod', '-Dfile.encoding=utf-8', '-Duser.timezone=GMT+08']
+        ports = ['40000']
+    }
+    allowInsecureRegistries = true
+}

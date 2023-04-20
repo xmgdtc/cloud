@@ -1,0 +1,70 @@
+plugins {
+    id 'java-library'
+    id 'java'
+    id 'io.franzbecker.gradle-lombok' version '3.2.0'
+    id 'org.springframework.boot' version '2.7.10'
+    id "io.spring.dependency-management" version "1.1.0"
+    id "com.google.cloud.tools.jib" version "3.3.1"
+}
+
+apply from: 'dependencies.gradle'
+
+
+allprojects {
+    group 'org.xmgdtc'
+    version '1.0.0'
+
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+    apply plugin: 'io.franzbecker.gradle-lombok'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: "io.spring.dependency-management"
+    apply plugin: "com.google.cloud.tools.jib"
+
+    // 指定JDK版本
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+
+    //指定编码格式
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = "UTF-8"
+    }
+
+    repositories {
+        maven {
+            url 'https://maven.aliyun.com/repository/public/'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/spring/'
+        }
+        maven {
+            url "https://repo.spring.io/release"
+        }
+        mavenLocal()
+        mavenCentral()
+
+    }
+
+    dependencies {
+        libraries.'lombok'
+        libraries.'spring-boot-starter-log4j2'
+    }
+}
+
+subprojects {
+    //dependency-management 插件
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: "com.google.cloud.tools.jib"
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${versions.'spring-cloud-version'}"
+            mavenBom "org.springframework.boot:spring-boot-dependencies:${versions.'spring-boot-version'}"
+        }
+    }
+
+    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
+    configurations {
+        all*.exclude group: "org.springframework.boot", module: 'spring-boot-starter-logging'
+    }
+}

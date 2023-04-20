@@ -1,0 +1,14 @@
+dependencies {
+    api(
+
+            libraries.'spring-boot-starter-jpa',
+            libraries.'spring-boot-starter-web',
+            libraries.'spring-boot-starter-log4j2',
+            libraries.'orika',
+            libraries.'jwt',
+            libraries.'joda-time',
+            libraries.'commons-pool',
+            project(':cloud-api')
+    )
+
+}

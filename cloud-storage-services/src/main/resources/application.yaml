@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "oss"
+  profiles:
+    active: dev
+    group:
+      "dev": "common,db-dev,oss-dev"

@@ -1,0 +1,9 @@
+dependencies {
+    implementation(
+
+            libraries.'spring-boot-starter-log4j2'
+    )
+    implementation(libraries.'spring-cloud-starter-gateway') {
+        exclude group: "org.springframework.boot", module: 'spring-boot-starter-logging'
+    }
+}
