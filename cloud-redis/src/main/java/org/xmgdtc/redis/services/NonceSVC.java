@@ -22,7 +22,7 @@ public class NonceSVC {
     }
 
 
-    public NonceDTO get(String id){
+    public NonceDTO get(String id) {
         try {
             NonceDTO nonce = Optional.ofNullable(nonceRedisTemplate.opsForValue().get(id)).orElseThrow(() -> new CloudBizException(CloudExceptionEnum.ERR_AUTH_CODE_FAIL));
             return nonce;

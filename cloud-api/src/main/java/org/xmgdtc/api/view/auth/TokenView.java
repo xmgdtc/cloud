@@ -1,10 +1,12 @@
 package org.xmgdtc.api.view.auth;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.xmgdtc.api.view.BaseView;
 
-import java.io.Serializable;
 import java.util.Date;
 
 

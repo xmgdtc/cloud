@@ -6,7 +6,6 @@ import org.xmgdtc.api.view.BaseView;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 /**
  * 用户注册view
