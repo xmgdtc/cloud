@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 import org.xmgdtc.api.enums.CloudExceptionEnum;
 import org.xmgdtc.api.excetpion.CloudBizException;
 import org.xmgdtc.common.dao.BaseDAO;
+import org.xmgdtc.common.utils.BeanUtil;
 import org.xmgdtc.storage.entity.FileEntity;
 import org.xmgdtc.storage.repo.IFileRepo;
 
@@ -16,6 +17,12 @@ public class FileDAO extends BaseDAO {
 
     public FileEntity save(FileEntity file) {
         file.init();
+        return repo.saveAndFlush(file);
+    }
+
+    public FileEntity update(FileEntity file) {
+        FileEntity old = findById(file.getId());
+        BeanUtil.mergeObject(file, old);
         return repo.saveAndFlush(file);
     }
 
