@@ -1,7 +1,7 @@
 package org.xmgdtc.storage.service.impl;
 
 import io.minio.*;
-import io.minio.errors.*;
+import io.minio.errors.MinioException;
 import lombok.Cleanup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,8 +19,6 @@ import org.xmgdtc.storage.service.IFileSVC;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 
 @Service
@@ -68,7 +66,7 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
             fileDAO.save(f);
             ossClient.putObject(args);
             return buildCommonMapper().map(f, FileView.class);
-        } catch (IOException | RuntimeException | MinioException | GeneralSecurityException e) {
+        } catch (IOException | MinioException | GeneralSecurityException e) {
             throw new CloudFileException(CloudExceptionEnum.ERR_FILE_SAVE, e.getMessage());
         }
 
@@ -83,7 +81,7 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
             ossClient.removeObject(RemoveObjectArgs.builder().bucket(file.getBucket()).object(file.getSaveName()).build());
             fileDAO.update(file);
             return buildCommonMapper().map(file, FileView.class);
-        } catch (IOException | RuntimeException | MinioException | GeneralSecurityException e) {
+        } catch (IOException | MinioException | GeneralSecurityException e) {
             throw new CloudFileException(CloudExceptionEnum.ERR_FILE_DELETE, e.getMessage());
         }
     }
@@ -102,7 +100,7 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
         try {
             @Cleanup InputStream inputStream = ossClient.getObject(GetObjectArgs.builder().bucket(file.getBucket()).object(file.getSaveName()).build());
             return inputStream;
-        } catch (IOException | RuntimeException | MinioException | GeneralSecurityException e) {
+        } catch (IOException | MinioException | GeneralSecurityException e) {
             throw new CloudFileException(CloudExceptionEnum.ERR_FILE_READ, e.getMessage());
         }
     }
@@ -113,8 +111,7 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
      * @param bucketName
      * @throws Exception
      */
-    private void bucketExists(String bucketName) throws
-            ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {
+    private void bucketExists(String bucketName) throws MinioException, GeneralSecurityException, IOException {
         boolean flag = ossClient.bucketExists(BucketExistsArgs.builder().bucket(bucketName).build());
         if (flag) {
             return;
