@@ -1,10 +1,7 @@
 package org.xmgdtc.storage.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.xmgdtc.api.view.oss.FileView;
 import org.xmgdtc.common.controller.BaseController;
@@ -20,9 +17,14 @@ public class FileController extends BaseController {
     private IFileSVC fileService;
 
 
-    @GetMapping("/create")
-    public FileView createAcct(@NotNull @RequestParam("bucket") String bucket, @NotNull @RequestParam("file") MultipartFile file) {
+    @RequestMapping(value = "/create", method = {RequestMethod.GET, RequestMethod.POST})
+    public FileView createFile(@NotNull @RequestParam("bucket") String bucket, @NotNull @RequestParam("file") MultipartFile file) {
         return fileService.saveFile(bucket, file);
     }
 
+
+    @RequestMapping(value = "/delete", method = {RequestMethod.GET, RequestMethod.POST})
+    public FileView deleteFile(@NotNull @RequestParam("id") String id) {
+        return fileService.deleteFile(id);
+    }
 }

@@ -18,10 +18,13 @@ public enum CloudExceptionEnum implements ICommonError {
 
     //文件保存失败
     ERR_FILE_SAVE(2001, "ERR_FILE_SAVE"),
+    //文件读取失败
+    ERR_FILE_READ(2002, "ERR_FILE_READ"),
+    //文件更新失败
+    ERR_FILE_UPDATE(2003, "ERR_FILE_UPDATE"),
     //文件删除失败
-    ERR_FILE_READ(2002, "ERR_FILE_DELETE"),
-    //文件删除失败
-    ERR_FILE_DELETE(2003, "ERR_FILE_DELETE"),
+    ERR_FILE_DELETE(2004, "ERR_FILE_DELETE"),
+
     //item不存在
     ERR_ITEM_NOT_EXISTS(3001, "ERR_ITEM_NOT_EXISTS"),
 

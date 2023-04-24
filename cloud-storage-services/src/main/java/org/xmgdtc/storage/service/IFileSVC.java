@@ -16,6 +16,14 @@ public interface IFileSVC {
     FileView saveFile(String bucket, MultipartFile file);
 
     /**
+     * 保存文件 这里考虑到空间问题 没有记录历史
+     *
+     * @param file
+     * @return
+     */
+    FileView updateFile(String id, MultipartFile file);
+
+    /**
      * 删除文件
      *
      * @param id

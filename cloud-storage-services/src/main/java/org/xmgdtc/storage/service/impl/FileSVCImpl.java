@@ -72,6 +72,40 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
 
     }
 
+
+    @Override
+    public FileView updateFile(String id, MultipartFile file) {
+        try {
+            // Get the file entity associated with the given id
+            FileEntity fileEntity = fileDAO.findById(id);
+
+            String bucket = fileEntity.getBucket();
+
+
+            // Get an input stream from the new file
+            @Cleanup InputStream is = file.getInputStream();
+            // Generate a new save file name
+            String suffix = FileUtil.getFileSuffix(file);
+            String saveId = UUID.randomUUID().toString();
+            String saveFileName = saveId + "." + suffix;
+
+            // Update the FileEntity object
+            fileEntity.setName(file.getOriginalFilename());
+            fileEntity.setSaveName(saveFileName);
+            fileEntity.setSuffix(suffix);
+            // Save the updated FileEntity object
+            fileDAO.save(fileEntity);
+
+            ossClient.removeObject(RemoveObjectArgs.builder().bucket(bucket).object(fileEntity.getSaveName()).build());
+            // Put the updated object in the bucket
+            ossClient.putObject(PutObjectArgs.builder().bucket(bucket).object(saveFileName).stream(is, is.available(), -1).build());
+            // Return the updated FileView object
+            return buildCommonMapper().map(fileEntity, FileView.class);
+        } catch (IOException | MinioException | GeneralSecurityException e) {
+            throw new CloudFileException(CloudExceptionEnum.ERR_FILE_UPDATE, e.getMessage());
+        }
+    }
+
     @Override
     @Transactional
     public FileView deleteFile(String id) {
