@@ -1,9 +1,8 @@
 package org.xmgdtc.storage.service;
 
 import org.springframework.web.multipart.MultipartFile;
+import org.xmgdtc.api.dto.file.FileDTO;
 import org.xmgdtc.api.view.oss.FileView;
-
-import java.io.InputStream;
 
 public interface IFileSVC {
 
@@ -37,5 +36,13 @@ public interface IFileSVC {
      * @param id
      * @return
      */
-    InputStream getFile(String id);
+    FileDTO getFileBytes(String id);
+
+    /**
+     * 获取文件信息
+     *
+     * @param id
+     * @return
+     */
+    FileView getFileInfo(String id);
 }

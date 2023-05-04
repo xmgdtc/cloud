@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
+import org.xmgdtc.api.dto.file.FileDTO;
 import org.xmgdtc.api.enums.CloudExceptionEnum;
 import org.xmgdtc.api.excetpion.CloudFileException;
 import org.xmgdtc.api.view.oss.FileView;
@@ -16,6 +17,7 @@ import org.xmgdtc.storage.dao.FileDAO;
 import org.xmgdtc.storage.entity.FileEntity;
 import org.xmgdtc.storage.service.IFileSVC;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.GeneralSecurityException;
@@ -93,12 +95,14 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
             fileEntity.setName(file.getOriginalFilename());
             fileEntity.setSaveName(saveFileName);
             fileEntity.setSuffix(suffix);
-            // Save the updated FileEntity object
-            fileDAO.save(fileEntity);
 
+            //也没找到更新的api 如果不在一个事务里 删除成功了但是再插入没成功 会有点尴尬 按理来说可以不删
             ossClient.removeObject(RemoveObjectArgs.builder().bucket(bucket).object(fileEntity.getSaveName()).build());
             // Put the updated object in the bucket
             ossClient.putObject(PutObjectArgs.builder().bucket(bucket).object(saveFileName).stream(is, is.available(), -1).build());
+
+            // Save the updated FileEntity object
+            fileDAO.update(fileEntity);
             // Return the updated FileView object
             return buildCommonMapper().map(fileEntity, FileView.class);
         } catch (IOException | MinioException | GeneralSecurityException e) {
@@ -128,15 +132,29 @@ public class FileSVCImpl extends BaseSVC implements IFileSVC {
      * @return
      */
     @Override
-    public InputStream getFile(String id) {
+    public FileDTO getFileBytes(String id) {
         FileEntity file = fileDAO.findById(id);
 
         try {
             @Cleanup InputStream inputStream = ossClient.getObject(GetObjectArgs.builder().bucket(file.getBucket()).object(file.getSaveName()).build());
-            return inputStream;
+            @Cleanup ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            inputStream.transferTo(outputStream);
+            return new FileDTO(file.getName(), outputStream);
         } catch (IOException | MinioException | GeneralSecurityException e) {
             throw new CloudFileException(CloudExceptionEnum.ERR_FILE_READ, e.getMessage());
         }
+    }
+
+    /**
+     * 获取文件信息
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public FileView getFileInfo(String id) {
+        FileEntity file = fileDAO.findById(id);
+        return buildCommonMapper().map(file, FileView.class);
     }
 
     /**
