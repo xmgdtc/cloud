@@ -3,7 +3,7 @@ package org.xmgdtc.account.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.xmgdtc.account.services.AccountSVC;
-import org.xmgdtc.api.request.ItemRequest;
+import org.xmgdtc.api.request.payload.ItemPayload;
 import org.xmgdtc.api.request.RestfulRequest;
 import org.xmgdtc.api.response.ItemResponse;
 import org.xmgdtc.api.response.RestfulResponse;
@@ -23,7 +23,7 @@ public class AccountController extends BaseController {
     private AccountSVC accountSVC;
 
     @RequestMapping(value = "/signUp", method = {RequestMethod.GET, RequestMethod.POST})
-    public RestfulResponse<ItemResponse<AccountView>> signUp(@RequestBody @NotNull @Valid RestfulRequest<ItemRequest<SignUpView>> request) {
+    public RestfulResponse<ItemResponse<AccountView>> signUp(@RequestBody @NotNull @Valid RestfulRequest<ItemPayload<SignUpView>> request) {
         AccountView accountView = accountSVC.signUp(request.getPayload().getItem());
         return new RestfulResponse<>(new ItemResponse<>(accountView));
     }
@@ -42,7 +42,6 @@ public class AccountController extends BaseController {
 
     @GetMapping("/findAll")
     public List<AccountView> findAll() {
-        System.out.println(super.httpServletRequest);
         List<AccountView> list = accountSVC.findAll();
         return list;
     }

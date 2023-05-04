@@ -18,7 +18,10 @@ public class SystemEntity extends BaseEntity {
     @Column(name = "name")
     private String name;
 
-    @OneToMany(fetch = FetchType.LAZY)
+    @Column(name = "path")
+    private String path;
+
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "system_id", insertable = false, updatable = false)
     private Set<RoleEntity> roles;
 

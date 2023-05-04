@@ -1,4 +1,4 @@
-package org.xmgdtc.api.view.resource;
+package org.xmgdtc.api.view.system;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

@@ -1,4 +1,4 @@
-package org.xmgdtc.api.request;
+package org.xmgdtc.api.request.payload;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,7 +8,7 @@ import javax.validation.Valid;
 
 @Getter
 @Setter
-public class ItemRequest<T extends BaseView> extends BaseRequest {
+public class ItemPayload<T extends BaseView> extends BasePayload {
 
     @Valid
     private T item;
