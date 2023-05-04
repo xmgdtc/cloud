@@ -17,7 +17,7 @@ public abstract class BaseController {
     protected HttpServletResponse httpServletResponse;
 
 
-    protected ResponseEntity<byte[]> buildResponse(String fileName, byte[] fileByte) throws Exception {
+    protected ResponseEntity<byte[]> buildResponse(String fileName, byte[] fileByte) {
 
         return ResponseEntity
                 .ok()
