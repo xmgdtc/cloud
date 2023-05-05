@@ -11,7 +11,13 @@ import java.io.Serializable;
 public class OrderView implements Serializable {
 
 
+    /**
+     * 排序属性
+     */
     private String by;
 
+    /**
+     * 排序 ASC DESC
+     */
     private String direction;
 }

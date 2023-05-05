@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 系统（微服务） 资源（controller整体） 操作（controller整体每个个体） 的增删改查
  */
-public interface ISystem {
+public interface ISystemSVC {
 
     /**
      * 创建系统
@@ -16,7 +16,7 @@ public interface ISystem {
      * @param systemView
      * @return
      */
-    public SystemView createSystem(SystemView systemView);
+    SystemView createSystem(SystemView systemView);
 
     /**
      * 编辑系统
@@ -24,7 +24,7 @@ public interface ISystem {
      * @param systemView
      * @return
      */
-    public SystemView editSystem(SystemView systemView);
+    SystemView editSystem(SystemView systemView);
 
     /**
      * 删除系统
@@ -32,7 +32,15 @@ public interface ISystem {
      * @param id
      * @return
      */
-    public SystemView deleteSystem(String id);
+    SystemView deleteSystem(String id);
+
+    /**
+     * 查找系统
+     *
+     * @param id
+     * @return
+     */
+    SystemView findSystem(String id);
 
     /**
      * 列表查询系统
@@ -40,6 +48,6 @@ public interface ISystem {
      * @param params
      * @return
      */
-    public List<SystemView> ListSystem(SystemParams params);
+    List<SystemView> listSystem(SystemParams params);
 
 }

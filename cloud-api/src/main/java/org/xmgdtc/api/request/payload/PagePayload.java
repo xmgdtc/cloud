@@ -3,6 +3,7 @@ package org.xmgdtc.api.request.payload;
 import lombok.Getter;
 import lombok.Setter;
 import org.xmgdtc.api.params.BaseParams;
+import org.xmgdtc.api.view.PageView;
 
 import javax.validation.Valid;
 
@@ -14,6 +15,6 @@ public class PagePayload<T extends BaseParams> extends BasePayload {
     private T params;
 
     @Valid
-    private T pageView;
+    private PageView pageInfo;
 
 }

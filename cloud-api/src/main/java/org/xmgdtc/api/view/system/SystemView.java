@@ -2,12 +2,12 @@ package org.xmgdtc.api.view.system;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.xmgdtc.api.view.BaseView;
+import org.xmgdtc.api.view.IdBaseView;
 
 
 @Getter
 @Setter
-public class SystemView extends BaseView {
+public class SystemView extends IdBaseView {
 
     /**
      * 微服务名称
